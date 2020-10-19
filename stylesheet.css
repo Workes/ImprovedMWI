@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+header img {
+    height: auto;
+    width: 500px;
+    max-width: 50%;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+}
+
+main {
+    margin: 50px;
+}
+
+main h1 {
+    margin: 40px 20px;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    padding: 0px 20px;
+    line-height: 1.6;
+    color: grey;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article p {
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 50%;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.cont2 {
+    width: 500px;
+}
+
+#left {
+    float: left;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    color: white;
+}
+
+#right {
+    float: right;
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px 0px;
+    color: red;
+}
+
+#form {
+    border: none;
+    padding: 5px;
+    width: 98%;
+}
+
+#submit {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
+}
+
+.container3 h1 {
+    font-size: 48px;
+}
+
+.container3 p {
+    line-height: 1.6;
+}
+
+.container3 a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 15px;
+}
